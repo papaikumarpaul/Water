@@ -38,25 +38,15 @@
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Free Water Bottles</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Water Dispensers</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Bottled Water Coolers</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                            <a href="{{url('/contact')}}"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Business Hours</h4>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
-                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
-                            </div>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Saturday:</h6>
-                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
-                            </div>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Vacation:</h6>
-                                <p class="text-white mb-0">All Sunday is our vacation</p>
-                            </div>
+                            <h4 class="text-white mb-4">Join US</h4>
+                            <a href="{{url('/become-a-partner')}}"><i class="fas fa-angle-right me-2"></i>Become a Partner</a>
+                            <a href="{{url('/become-a-supplier')}}"><i class="fas fa-angle-right me-2"></i> Become A Supplier</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -78,15 +68,13 @@
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">
             <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                <div class="row d-flex justify-content-center align-items-center">
+                    {{-- <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    </div> --}}
+                    <div class="col-md-6 text-center text-md-center text-body ">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.
+                        Designed By <a class="border-bottom text-white" href="https://fastliq.com/">FastLiq</a></span>
                     </div>
                 </div>
             </div>

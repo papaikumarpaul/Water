@@ -42,9 +42,9 @@
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="{{url('/')}}" class="navbar-brand p-0">
+                    {{-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> --}}
+                    <img  src="{{url('./frontend/img/Max Waterv Logo.png')}}" alt="Logo" width="200"> 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -52,14 +52,14 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="{{url('/')}}" class="nav-item nav-link ">Home</a>
-                        <a href="{{url('/about-us')}}" class="nav-item nav-link">About-Us</a>
+                        <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
                         <a href="{{url("/our-product")}}" class="nav-item nav-link">Our Product</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Company</a>
                             <div class="dropdown-menu m-0">
                                  <a href="{{url('/our-service')}}" class="dropdown-item">Our Service</a>
                                 <a href="{{url('/our-team')}}" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Our Partners</a>
+                                <a href="{{url('/our-partner')}}" class="dropdown-item">Our Partners</a>
                                 <a href="{{url("/testimonial")}}" class="dropdown-item">Testimonial</a>
                                 <a href="{{url("/blog")}}" class="dropdown-item">Blog</a>                               
                             </div>
