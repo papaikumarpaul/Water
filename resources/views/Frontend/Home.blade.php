@@ -1,4 +1,5 @@
 @extends('Frontend.layouts.Main')
+@section('title', 'Home')
 @section('main-container')
 <div class="carousel-header">
     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -17,7 +18,7 @@
                         <p class="mb-5 fs-5 text-white fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.5s" style="animation-delay: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         </p>
                         <div class="carousel-caption-1-content-btn fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.7s" style="animation-delay: 1.7s;">
-                            <a class="btn btn-primary rounded-pill flex-shrink-0 py-3 px-5 me-2" href="#">Order Now</a>
+                            <a class="btn btn-primary rounded-pill flex-shrink-0 py-3 px-5 me-2" href="/contact">Order Now</a>
                             <a class="btn btn-secondary rounded-pill flex-shrink-0 py-3 px-5 ms-2" href="#">Free Estimate</a>
                         </div>
                     </div>

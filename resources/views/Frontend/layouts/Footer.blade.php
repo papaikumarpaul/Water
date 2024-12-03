@@ -22,7 +22,10 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h3 class="text-white mb-4"><i class="fas fa-hand-holding-water text-primary me-3"></i>Acuas</h3>
+                                <a href="{{url('/')}}" class="navbar-brand p-0">
+                                    {{-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> --}}
+                                    <img  src="{{url('./frontend/img/Max Waterv Logo.png')}}" alt="Logo" width="200"> 
+                                </a>
                                 <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
                             </div>
                             <div class="position-relative">

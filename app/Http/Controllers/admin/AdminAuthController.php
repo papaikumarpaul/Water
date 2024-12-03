@@ -28,11 +28,14 @@ class AdminAuthController extends Controller
         ]);
 
         $credentials = $request->only('email', 'password');
+    
+        
 
         if (Auth::guard('admin')->attempt($credentials)) {
             return redirect()->route('admin.dashboard');
         }
-
+         
+   
         return back()->withErrors(['email' => 'Invalid credentials.']);
     }
 
@@ -41,8 +44,9 @@ class AdminAuthController extends Controller
         // Get the logged-in admin user
         $admin = Auth::guard('admin')->user();
         
-        return view('Admin.dashboard.index', compact('admin'));
+        return view('Admin.Layouts.app', compact('admin'));
     }
+   
 
     public function logout()
     {

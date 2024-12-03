@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.app')
 @section('title', 'Admin Dashboard')
 @section("content")
-<div class="container mt-5">
+<div class="container mt-5" style="margin-left: 300px; width:100%">
     <div class="card shadow">
         <div class="card-body">
             <h4 class="card-title text-center mb-4">Welcome, {{ $admin->name }}!</h4>

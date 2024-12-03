@@ -1,4 +1,5 @@
 @extends('Frontend.layouts.Main')
+@section('title', 'Testimonial')
 @section('main-container')
             <!-- Header Start -->
             <div class="container-fluid bg-breadcrumb">

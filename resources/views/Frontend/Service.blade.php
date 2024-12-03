@@ -1,4 +1,5 @@
 @extends('Frontend.layouts.Main')
+@section('title', 'Service')
 @section('main-container')
 
             <!-- Header Start -->

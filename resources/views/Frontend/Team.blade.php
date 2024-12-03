@@ -1,4 +1,5 @@
 @extends('Frontend.layouts.Main')
+@section('title', 'Team')
 @section('main-container')
         
 
