@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.app')
 @section('title','Admin Blog')
 @section('content')
-<div class="container Container-page" >
+<div class="container" >
     <div class="page-inner ">
         <div class="row">
           <div class="col-md-12 page-large ">
@@ -37,7 +37,7 @@
       <form method="POST" action="{{route('admin.store')}}"enctype="multipart/form-data">
         @csrf
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="form-group mb-15 mb-sm-20 mb-md-25">
               <label class="d-block text-black fw-semibold mb-10"
                 >Title</label

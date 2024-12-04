@@ -61,7 +61,9 @@
                                 <a href="{{url('/our-team')}}" class="dropdown-item">Our Team</a>
                                 <a href="{{url('/our-partner')}}" class="dropdown-item">Our Partners</a>
                                 <a href="{{url("/testimonial")}}" class="dropdown-item">Testimonial</a>
-                                <a href="{{url("/blog")}}" class="dropdown-item">Blog</a>                               
+                                <a href="{{url("/blog")}}" class="dropdown-item">Blog</a>  
+                                <a href="{{url("/list-your-ads")}}" class="dropdown-item">Ads</a>                               
+
                             </div>
                         </div>
                         <a href="{{url("/contact")}}" class="nav-item nav-link">Contact</a>

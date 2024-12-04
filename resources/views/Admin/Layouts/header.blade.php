@@ -33,7 +33,7 @@
       <div class="main-header-logo">
         <!-- Logo Header -->
         <div class="logo-header" data-background-color="dark">
-          <a href="index.html" class="logo">
+          <a href="#" class="logo">
             <img
               src="{{url('./admin/img/kaiadmin/Max Waterv Logo.png')}}"
               alt="navbar brand"
@@ -77,7 +77,7 @@
             </div> --}}
             <div class="d-inline">
                 <a href="{{url('/')}}" >
-                  <button type="submit" class="">View Website</button>
+                  <button type="submit" class="btn btn-primary">View Website</button>
                 </a>
             </div>
           </nav>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\AdminAdsController;
 use App\Http\Controllers\frontend\AboutController;
 use App\Http\Controllers\frontend\BecomePartner;
 use App\Http\Controllers\frontend\BecomeSupplier;
@@ -20,6 +21,7 @@ use App\Http\Controllers\Admin\AdminBecomePartnerController;
 use App\Http\Controllers\Admin\AdminBecomeSupplierController;
 use App\Http\Controllers\admin\AdminContactContriller;
 use App\Http\Controllers\admin\BlogController as AdminBlogController;
+use App\Http\Controllers\AdsController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -43,6 +45,11 @@ Route::get('/become-a-partner',[BecomePartner::class,'creatctb'])->name('creatct
 
 Route::Post('/become-a-supplier/store',[BecomeSupplier::class,'storeds'])->name('stores');
 Route::get('/become-a-supplier',[BecomeSupplier::class,'creatctsds'])->name('creatcta');
+Route::get('/list-your-ads',[AdsController::class,'adds']);
+Route::get('/createdAdd',[AdsController::class,'createdAdd'])->name('createdAdd');
+Route::Post('/become-a-partner/addStore',[AdsController::class,'addStore'])->name('addStore');
+
+
 
 
 
@@ -67,6 +74,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::delete('/contact-details/{id}', [AdminContactContriller::class, 'detetelContact'])->name('detetelContact');
         Route::delete('/contact-details-become-partner/{id}', [AdminBecomePartnerController::class, 'detetelBecomePartner'])->name('detetelBecomePartner');
         Route::delete('/contact-details-become-supplier/{id}', [AdminBecomeSupplierController::class, 'detetelBecomeSupplier'])->name('detetelBecomeSupplier');
+        Route::get('/list-your-ads-Show',[AdminAdsController::class,'ListAdsShow'])->name('ListAdsShow');
+        Route::delete('/list-your-ads-Show/{id}', [AdminAdsController::class, 'detetelListAdds'])->name('detetelListAdds');
         
     
     

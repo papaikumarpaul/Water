@@ -98,6 +98,14 @@
             </a>
            
           </li>
+          <li class="nav-item">
+            <a href="{{route('admin.ListAdsShow')}}">
+              <i class="fas fa-th-list"></i>
+              <p>List A Ads</p>
+              
+            </a>
+           
+          </li>
           
         </ul>
       </div>

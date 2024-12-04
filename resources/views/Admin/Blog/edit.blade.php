@@ -1,7 +1,7 @@
 @extends('Admin.Layouts.app')
 @section('title','Admin Blog')
 @section('content')
-<div class="container Container-page" >
+<div class="container" >
     <div class="page-inner ">
         <div class="row">
           <div class="col-md-12 page-large ">
@@ -38,7 +38,7 @@
         @csrf
         @method("PUT")
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="form-group mb-15 mb-sm-20 mb-md-25">
               <label class="d-block text-black fw-semibold mb-10"
                 >Title</label
@@ -86,7 +86,11 @@
                 Product Description
               </label>
               <textarea name="details" id="summernote" class="form-control" rows="15" cols="10" value="{{$blogs->details}}"></textarea>
-              </div>
+
+              {{-- @foreach ($blogs as $blog)
+              <textarea name="details" id="summernote" class="form-control" rows="15">{{ $blog->details }}</textarea>
+          @endforeach --}}
+            </div>
             </div>
           </div>
           <div class="col-md-6">
@@ -153,7 +157,7 @@
               class="btn btn-primary  border-0 fw-medium text-white pt-10 pb-10 ps-25 pe-25 pt-md-11 pb-md-11 ps-md-35 pe-md-35 rounded-1 fs-md-15 fs-lg-16"
               type="submit"
             >
-              Edit Blog
+              Update
             </button>
           </div>
         </div>

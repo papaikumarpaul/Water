@@ -32,6 +32,7 @@
                           <th>Subject</th>
                           <th>Message</th>
                           <th>From Submit Date</th>
+                          <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>

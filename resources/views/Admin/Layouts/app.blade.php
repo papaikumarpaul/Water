@@ -80,7 +80,15 @@
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
     <script>
       $(document).ready(function() {
-  $('#summernote').summernote();
+  $('#summernote').summernote({
+    height: 300, // Set the editor height
+    placeholder: 'Enter blog details...',
+  });
+ 
+});
+$('form').on('submit', function() {
+    const summernoteValue = $('#summernote').summernote('code');
+    $('textarea[name="details"]').val(summernoteValue);
 });
     </script>
     @stack('script')

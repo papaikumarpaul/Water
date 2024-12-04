@@ -70,7 +70,7 @@ public function store(Request $request)
     {
         $request->validate([
             'title' => 'required|string|max:255',
-            'slug' => 'required|string|max:255|unique:blogs,slug,' . $id,
+            'slug' => 'required|string|max:255|unique:blog,slug,' . $id,
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'details' => 'required|string',
             'tags' => 'nullable|string',

@@ -34,6 +34,8 @@
                           <th>Meta Title</th>
                           <th>Meta Description</th>
                           <th>From Submit Date</th>
+                          <th>Action</th>
+
                         </tr>
                       </thead>
                       <tbody>
