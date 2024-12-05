@@ -397,45 +397,22 @@
                     <h1 class="display-3 text-capitalize mb-3">Latest Blog & News</h1>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="{{url('./frontend/img/blog-1.jpg')}}" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> Jan 12 2025</div>
-                            </div>
-                            <div class="blog-content rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <a href="#" class="fw-bold text-secondary">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="{{url('./frontend/img/blog-2.jpg')}}" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> Jan 12 2025</div>
-                            </div>
-                            <div class="blog-content rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <a href="#" class="fw-bold text-secondary">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="{{url('./frontend/img/blog-3.jpg')}}" class="img-fluid rounded-top w-100" alt="">
-                                <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> Jan 12 2025</div>
-                            </div>
-                            <div class="blog-content rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <a href="#" class="fw-bold text-secondary">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    @foreach ($blogs as $item)
+        <div class="col-lg-6 col-xl-4 mb-4 d-flex align-items-stretch wow fadeInUp" data-wow-delay="0.2s">
+            <div class="card blog-item">
+                <div class="blog-img">
+                    <img src="{{ asset('storage/' . $item->image) }}" class="img-fluid rounded-top w-100" alt="Blog Image">
+                    <div class="blog-date px-4 py-2"><i class="fa fa-calendar-alt me-1"></i> {{ $item->created_at->format('M d Y') }}</div>
+                </div>
+                <div class="card-body blog-content d-flex flex-column">
+                    <a href="{{ route('blog.show',$item->slug)}}" class="h4 d-inline-block mb-3">{{ $item->title }}</a>
+                    <p class="flex-grow-1">{{ \Illuminate\Support\Str::words(strip_tags($item->details), 15, '...') }}</p>
+                    <a href="{{ route('blog.show',$item->slug)}}" class="fw-bold text-secondary mt-auto">Read More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    @endforeach
+                
                 </div>
             </div>
         </div>

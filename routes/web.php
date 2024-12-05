@@ -48,6 +48,9 @@ Route::get('/become-a-supplier',[BecomeSupplier::class,'creatctsds'])->name('cre
 Route::get('/list-your-ads',[AdsController::class,'adds']);
 Route::get('/createdAdd',[AdsController::class,'createdAdd'])->name('createdAdd');
 Route::Post('/become-a-partner/addStore',[AdsController::class,'addStore'])->name('addStore');
+// 
+// Blog Show
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
 
 

@@ -7,7 +7,6 @@
         <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>
         <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
             <li class="breadcrumb-item active text-primary">Contact</li>
         </ol>    
     </div>
@@ -90,7 +89,7 @@
                                     <i class="fas fa-map-marker-alt fa-2x text-secondary me-4"></i>
                                     <div>
                                         <h4>Address</h4>
-                                        <p class="mb-0">123 North tower New York, USA</p>
+                                        <p class="mb-0">Danapur, Patna.Bihar,India</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +98,7 @@
                                     <i class="fas fa-envelope fa-2x text-secondary me-4"></i>
                                     <div>
                                         <h4>Mail Us</h4>
-                                        <p class="mb-0">info@example.com</p>
+                                        <p class="mb-0">iwateroffic.in@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +107,7 @@
                                     <i class="fa fa-phone-alt fa-2x text-secondary me-4"></i>
                                     <div>
                                         <h4>Telephone</h4>
-                                        <p class="mb-0">(+012) 3456 7890 123</p>
+                                        <p class="mb-0">+91-6204356763</p>
                                     </div>
                                 </div>
                             </div>

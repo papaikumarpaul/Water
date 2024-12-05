@@ -55,11 +55,11 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Danapur, Patna,Bihar,India</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> iwateroffic.in@gmail.com</a>
+                            {{-- <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a> --}}
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +91-6204356763</a>
+                            {{-- <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a> --}}
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                         <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div> --}}
                     <div class="col-md-6 text-center text-md-center text-body ">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.
+                        <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>Max Water, All right reserved.
                         Designed By <a class="border-bottom text-white" href="https://fastliq.com/">FastLiq</a></span>
                     </div>
                 </div>

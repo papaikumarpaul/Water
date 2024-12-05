@@ -41,15 +41,15 @@
                       <tbody>
                        @foreach ($blogs as $item )
                        <tr>
-                        
-                        <td>{{$item->title}}</td>
-                        <td>{{ strip_tags($item->details) }}</td>
+                        <td>{{ \Illuminate\Support\Str::words($item->title, 5, ' [more]') }}</td>
+                        <td>{{ \Illuminate\Support\Str::words(strip_tags($item->details), 10, ' [read more]') }}</td>
                         <td>
-                          <img src="{{($item->image) }}" alt="Image" width="100" height="100">
+                          <img src="{{ asset('storage/' . $item->image) }}" alt="Image" width="100" height="100">
                       </td>
-                      <td>{{ ($item->meta_title) }}</td>
-                      <td>{{ ($item->meta_description) }}</td>
-                      <td>{{$item->created_at}}</td>
+                      <td>{{ \Illuminate\Support\Str::words($item->meta_title, 5, ' [more]') }}</td>
+                      <td>{{ \Illuminate\Support\Str::words($item->meta_description, 5, ' [more]') }}</td>
+                      <td>{{ $item->created_at->format('d-m-y') }}</td>
+
 
                         <td>
                           <a href=" {{route('admin.edit',$item->id)}}" class="btn btn-primary">Edit</a>

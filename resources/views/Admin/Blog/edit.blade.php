@@ -30,6 +30,13 @@
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
+        {{-- @foreach ($serviceCategories as $serviceCategory)
+                                <li>
+                                    <a href="{{ route('service.category', $serviceCategory->slug) }}">
+                                        {{ __($serviceCategory->name) }}
+                                    </a>
+                                </li>
+                            @endforeach --}}
     </div>
 @endif
 <div class="card mb-25 border-0 rounded-0 bg-white add-product-box">
@@ -78,6 +85,10 @@
                 name="image"
                 value="{{$blogs->image}}"
               />
+              @if($blogs->image)
+      {{-- <img src="{{ asset('storage/images/' . $blogs->image) }}" alt="Current Image" width="100" class="mt-2"> --}}
+      <img src="{{ asset('storage/' . $blogs->image) }}" alt="Image" width="100" height="100">
+    @endif
             </div>
           </div>
           <div class="col-md-12">
@@ -85,11 +96,7 @@
               <label class="d-block text-black fw-semibold mb-10">
                 Product Description
               </label>
-              <textarea name="details" id="summernote" class="form-control" rows="15" cols="10" value="{{$blogs->details}}"></textarea>
-
-              {{-- @foreach ($blogs as $blog)
-              <textarea name="details" id="summernote" class="form-control" rows="15">{{ $blog->details }}</textarea>
-          @endforeach --}}
+              <textarea name="details" id="summernote" class="form-control" rows="15" cols="10" value="{{$blogs->details}}">{{ $blogs->details }}</textarea>
             </div>
             </div>
           </div>
