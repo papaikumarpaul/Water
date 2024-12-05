@@ -55,7 +55,8 @@
         @endsection
       <style>
             #blog-image-1{
-                height: 350px;
+                height: 500px;
+                width: 70%;
                 object-fit: cover;
             }
             </style>

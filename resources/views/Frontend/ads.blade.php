@@ -8,7 +8,7 @@
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Our Company</a></li>
-                        <li class="breadcrumb-item active text-primary">Ads</li>
+                        <li class="breadcrumb-item active text-primary">List a Ads</li>
                     </ol>    
                 </div>
             </div>
