@@ -51,7 +51,8 @@
                                     <div class="d-flex">
                                         <div class="service-content text-end">
                                             <a href="#" class="h4 d-inline-block mb-3">Residential Waters</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Providing pure drinking water solutions for homes and families.
+                                            </p>
                                         </div>
                                         <div class="ps-4">
                                             <div class="service-btn"><i class="fas fa-hand-holding-water text-white fa-2x"></i></div>
@@ -66,7 +67,8 @@
                                     <div class="d-flex">
                                         <div class="service-content text-end">
                                             <a href="#" class="h4 d-inline-block mb-3">Commercial Waters</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Supplying high-quality water for businesses, offices, and industries.
+                                            </p>
                                         </div>
                                         <div class="ps-4">
                                             <div class="service-btn"><i class="fas fa-dumpster-fire text-white fa-2x"></i></div>
@@ -81,7 +83,8 @@
                                     <div class="d-flex">
                                         <div class="service-content text-end">
                                             <a href="#" class="h4 d-inline-block mb-3">Filtration Plants</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Designing and operating efficient water filtration systems.
+                                            </p>
                                         </div>
                                         <div class="ps-4">
                                             <div class="service-btn"><i class="fas fa-filter text-white fa-2x"></i></div>
@@ -106,7 +109,7 @@
                                         </div>
                                         <div class="service-content">
                                             <a href="#" class="h4 d-inline-block mb-3">Water Softening</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Offering solutions to reduce water hardness and improve its quality.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +124,7 @@
                                         </div>
                                         <div class="service-content">
                                             <a href="#" class="h4 d-inline-block mb-3">Market Research</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Analyzing market trends and consumer needs to drive business growth.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +139,7 @@
                                         </div>
                                         <div class="service-content">
                                             <a href="#" class="h4 d-inline-block mb-3">Project Planning</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <p class="mb-0">Developing comprehensive project plans to ensure timely and successful execution.</p>
                                         </div>
                                     </div>
                                 </div>

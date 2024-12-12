@@ -26,7 +26,7 @@
                                     {{-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> --}}
                                     <img  src="{{url('./frontend/img/Max Waterv Logo.png')}}" alt="Logo" width="200"> 
                                 </a>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <p class="mb-3">Pure, refreshing water, sourced from pristine springs. Perfect for hydration on-the-go, packaged sustainably, and committed to your well-being.</p>
                             </div>
                             <div class="position-relative">
                                 <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">

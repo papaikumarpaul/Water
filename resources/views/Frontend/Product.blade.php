@@ -51,7 +51,7 @@
                                 <p>250mL 1 Bottle</p>
                                 <a href="#" class="h4 d-inline-block mb-3">Mineral Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$35:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                                <a href="https://wa.me/+916204356763" class="btn btn-secondary rounded-pill py-2 px-4">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                 <p>500mL 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">RO Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$70:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                                <a href="https://wa.me/+916204356763" class="btn btn-secondary rounded-pill py-2 px-4">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 <p>1L 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$100:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                                <a href="https://wa.me/+916204356763" class="btn btn-secondary rounded-pill py-2 px-4">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 <p>5L 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$100:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                                <a href="https://wa.me/+916204356763" class="btn btn-secondary rounded-pill py-2 px-4">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                 <p>20L 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$100:00</p>
-                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                                <a href="https://wa.me/+916204356763" class="btn btn-secondary rounded-pill py-2 px-4">Order Now</a>
                             </div>
                         </div>
                     </div>

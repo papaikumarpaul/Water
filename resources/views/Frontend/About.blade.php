@@ -7,7 +7,7 @@
                     <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                     
                         <li class="breadcrumb-item active text-primary">About</li>
                     </ol>    
                 </div>
@@ -48,8 +48,10 @@
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="about-item">
                             <h4 class="text-primary text-uppercase">About Us</h4>
-                            <h1 class="display-3 mb-3">We Deliver The Quality Water.</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quidem quas totam nostrum! Maxime rerum voluptatem sed, facilis unde a aperiam nulla voluptatibus excepturi ipsam iusto consequuntur
+                            <h1 class="display-3 mb-3">Pure Water, Pure Purpose</h1>
+                            <p class="mb-4">At Max Water, we're committed to providing the purest, 
+                                most refreshing water. Sourced from pristine natural springs, our water is free from contaminants and packed with essential minerals. We believe that hydration is 
+                                essential for a healthy lifestyle, and we're dedicated to making it easy and enjoyable.
                             </p>
                             <div class="bg-light rounded p-4 mb-4">
                                 <div class="row">
@@ -60,7 +62,7 @@
                                             </div>
                                             <div class="">
                                                 <a href="#" class="h4 d-inline-block mb-3">Satisfied Customer</a>
-                                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                                <p class="mb-0">Our priority is customer satisfaction. We strive to deliver exceptional products and services.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -75,7 +77,7 @@
                                             </div>
                                             <div class="">
                                                 <a href="#" class="h4 d-inline-block mb-3">Standard Product</a>
-                                                <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                                <p class="mb-0">Our products are made to the highest quality standards, ensuring durability and performance.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -151,39 +153,39 @@
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-uppercase text-primary">Our Feature</h4>
-                    <h1 class="display-3 text-capitalize mb-3">A Trusted Name In Bottled Water Industry</h1>
+                    <h1 class="display-3 text-capitalize mb-3">Enhanced with Essential Minerals</h1>
                 </div>
                 <div class="row g-4">
                     <div class=" col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4">
                             <div class="feature-icon mb-3"><i class="fas fa-hand-holding-water text-white fa-3x"></i></div>
-                            <a href="#" class="h4 mb-3">Quality Check</a>
-                            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat deleniti necessitatibus</p>
-                            <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="h4 mb-3">Pure and Pristine</a>
+                            <p class="mb-3">Sourced from pristine natural springs, Max Water offers the purest form of hydration, free from contaminants.</p>
+                            {{-- <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a> --}}
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item p-4">
                             <div class="feature-icon mb-3"><i class="fas fa-filter text-white fa-3x"></i></div>
-                            <a href="#" class="h4 mb-3">5 Steps Filtration</a>
-                            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat deleniti necessitatibus</p>
-                            <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                            <a  class="h4 mb-3">Eco-Friendly Packaging</a>
+                            <p class="mb-3">Committed to sustainability, our bottles are made from recyclable materials, minimizing our environmental impact.</p>
+                            {{-- <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a> --}}
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item p-4">
                             <div class="feature-icon mb-3"><i class="fas fa-recycle text-white fa-3x"></i></div>
-                            <a href="#" class="h4 mb-3">Composition</a>
-                            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat deleniti necessitatibus</p>
-                            <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="h4 mb-3">Hydration, Perfected</a>
+                            <p class="mb-3">Stay hydrated and energized all day long with our perfectly balanced mineral content.</p>
+                            {{-- <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a> --}}
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="feature-item p-4">
                             <div class="feature-icon mb-3"><i class="fas fa-microscope text-white fa-3x"></i></div>
-                            <a href="#" class="h4 mb-3">Lab Control</a>
-                            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat deleniti necessitatibus</p>
-                            <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="h4 mb-3">Convenient and Portable</a>
+                            <p class="mb-3">Our sleek, lightweight bottles are perfect for on-the-go hydration, wherever your adventures take you.</p>
+                            {{-- <a href="#" class="btn text-secondary">Read More <i class="fa fa-angle-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -191,3 +193,4 @@
         </div>
         <!-- feature End -->
       @endsection
+      

@@ -27,6 +27,11 @@
 
         <!-- Template Stylesheet -->
         <link href="{{url('./frontend/css/style.css')}}" rel="stylesheet">
+        <style>
+            .feature-item{
+                height: 100%;
+            }
+        </style>
     </head>
 
     <body>
