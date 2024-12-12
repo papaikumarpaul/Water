@@ -34,14 +34,14 @@
 </div>
 <!-- Modal Search End -->
         <!-- Contact Start -->
-        <div class="container-fluid contact bg-light py-5">
+        <div class="container-fluid contact bg-light py-5 d-flex justify-content-center">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-12 h-100 wow fadeInUp" data-wow-delay="0.2s">
-                       <div>
+                       {{-- <div>
                         <img src="{{ asset('storage/' . $blog->image) }}"  id="blog-image-1"class="img-fluid rounded w-100 " alt="Blog Image">
                         <a class="blog-date px-4 py-3 d-inline-block"><i class="fa fa-calendar-alt me-1"></i> {{ $blog->created_at->format('M d Y') }}</a>
-                       </div>
+                       </div> --}}
                        <div class="mt-md-5">
                         <a  class="h4 d-inline-block mb-3">{{ $blog->title }}</a>
                         <p class="flex-grow-1">{{(strip_tags($blog->details)) }}</p>

@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="bg-transparent">
-                            <img src="{{url('./frontend/img/water.png')}}" class="img-fluid w-100" alt="">
+                            <img src="{{url('./frontend/img/500ml.webp')}}" class="img-fluid w-100" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay="0.2s">

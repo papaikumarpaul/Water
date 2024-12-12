@@ -43,12 +43,12 @@
                     <h4 class="text-uppercase text-primary">Our Products</h4>
                     <h1 class="display-3 text-capitalize mb-3">We Deliver Best Quality Bottle Packs.</h1>
                 </div>
-                <div class="row g-4 justify-content-center">
+                <div class="row g-4 justify-content-start">
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="product-item">
-                            <img src="{{url('./frontend/img/product-3.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <img src="{{url('./frontend/img/max water image.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
                             <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>2L 1 Bottle</p>
+                                <p>250mL 1 Bottle</p>
                                 <a href="#" class="h4 d-inline-block mb-3">Mineral Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$35:00</p>
                                 <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
@@ -57,9 +57,9 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="product-item">
-                            <img src="{{url('./frontend/img/product-2.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <img src="{{url('./frontend/img/2.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
                             <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>4L 2 Bottles</p>
+                                <p>500mL 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">RO Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$70:00</p>
                                 <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
@@ -68,9 +68,31 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="product-item">
-                            <img src="{{url('./frontend/img/product-1.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <img src="{{url('./frontend/img/3.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
                             <div class="product-content bg-light text-center rounded-bottom p-4">
-                                <p>6L 3 Bottles</p>
+                                <p>1L 2 Bottles</p>
+                                <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
+                                <p class="fs-4 text-primary mb-3">$100:00</p>
+                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="product-item">
+                            <img src="{{url('./frontend/img/4.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <div class="product-content bg-light text-center rounded-bottom p-4">
+                                <p>5L 2 Bottles</p>
+                                <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
+                                <p class="fs-4 text-primary mb-3">$100:00</p>
+                                <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="product-item">
+                            <img src="{{url('./frontend/img/5.png')}}" class="img-fluid w-100 rounded-top"  alt="Image">
+                            <div class="product-content bg-light text-center rounded-bottom p-4">
+                                <p>20L 2 Bottles</p>
                                 <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
                                 <p class="fs-4 text-primary mb-3">$100:00</p>
                                 <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">Read More</a>
