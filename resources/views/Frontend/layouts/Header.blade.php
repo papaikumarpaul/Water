@@ -31,6 +31,14 @@
             .feature-item{
                 height: 100%;
             }
+            .team-2{
+                height: 340px;
+            }
+            @media(max-width:786px){
+                .team-2{
+                height: 380px;
+            }
+            }
         </style>
     </head>
 

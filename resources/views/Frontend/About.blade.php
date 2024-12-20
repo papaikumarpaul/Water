@@ -42,7 +42,7 @@
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-img rounded h-100">
                             <img src="{{url('./frontend/img/about.jpg')}}" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
-                            <div class="about-exp"><span>20 Years Experiance</span></div>
+                            <div class="about-exp"><span>2+ Years Experiance</span></div>
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -102,7 +102,7 @@
                             </div>
                             <h4 class="text-white my-4">Happy Clients</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">456</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">100</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                             </div>
                             <h4 class="text-white my-4">Transport</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">513</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                             </div>
                             <h4 class="text-white my-4">Employees</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">5</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <h4 class="text-white my-4">Years Experiance</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">2</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>

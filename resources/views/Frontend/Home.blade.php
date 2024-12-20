@@ -124,7 +124,7 @@
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-img rounded h-100">
                             <img src="{{url('./frontend/img/about.jpg')}}" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
-                            <div class="about-exp"><span>20 Years Experiance</span></div>
+                            <div class="about-exp"><span>2+ Years Experiance</span></div>
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -185,7 +185,7 @@
                             </div>
                             <h4 class="text-white my-4">Happy Clients</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">456</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">100</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                             </div>
                             <h4 class="text-white my-4">Transport</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">513</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                             </div>
                             <h4 class="text-white my-4">Employees</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">5</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                             </div>
                             <h4 class="text-white my-4">Years Experiance</h4>
                             <div class="counter-counting">
-                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">2</span>
                                 <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
@@ -450,12 +450,12 @@
                     <h4 class="text-uppercase text-primary">Our Team</h4>
                     <h1 class="display-3 text-capitalize mb-3">What is Really seo & How Can I Use It?</h1>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item p-4">
                             <div class="team-inner rounded">
                                 <div class="team-img">
-                                    <img src="{{url('./frontend/img/team-1.jpg')}}" class="img-fluid rounded-top w-100" alt="Image">
+                                    <img src="{{url('./frontend/img/Mr. Rahul Founder.jpg')}}" class="img-fluid rounded-top w-100" alt="Image">
                                     <div class="team-share">
                                         <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                     </div>
@@ -467,8 +467,8 @@
                                     </div>
                                 </div>
                                 <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3">Hard Branots</h4>
-                                    <p class="mb-0">CEO & Founder</p>
+                                    <h4 class="mb-3">Mr. Rahul</h4>
+                                    <p class="mb-0">Founder</p>
                                 </div>
                             </div>
                         </div>
@@ -477,7 +477,7 @@
                         <div class="team-item p-4">
                             <div class="team-inner rounded">
                                 <div class="team-img">
-                                    <img src="{{url('./frontend/img/team-2.jpg')}}" class="img-fluid rounded-top w-100" alt="Image">
+                                    <img src="{{url('./frontend/img/Mr. Ujjwal choudhary.jpg')}}" class="img-fluid rounded-top w-100 team-2" alt="Image">
                                     <div class="team-share">
                                         <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                     </div>
@@ -489,52 +489,8 @@
                                     </div>
                                 </div>
                                 <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3">Hard Branots</h4>
-                                    <p class="mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="{{url('./frontend/img/team-3.jpg')}}" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3">Hard Branots</h4>
-                                    <p class="mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item p-4">
-                            <div class="team-inner rounded">
-                                <div class="team-img">
-                                    <img src="{{url('./frontend/img/team-4.jpg')}}" class="img-fluid rounded-top w-100" alt="Image">
-                                    <div class="team-share">
-                                        <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
-                                    </div>
-                                    <div class="team-icon rounded-pill py-2 px-2">
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                                <div class="bg-light rounded-bottom text-center py-4">
-                                    <h4 class="mb-3">Hard Branots</h4>
-                                    <p class="mb-0">CEO & Founder</p>
+                                    <h4 class="mb-3">Mr. Ujjwal choudhary</h4>
+                                    <p class="mb-0">Co-founder</p>
                                 </div>
                             </div>
                         </div>
