@@ -1,6 +1,4 @@
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fastliq/public_html/
-    # - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
